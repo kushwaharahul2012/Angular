@@ -27,7 +27,11 @@ import { LoginComponent } from './home/login/login.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgbModule,
+    BrowserAnimationsModule,
+    AngularMaterialModule,
+    FlexLayoutModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
